@@ -8,11 +8,12 @@ Race through a frantic pre-launch countdown, mash the ignition buttons to feed y
 
 ## ✨ Features
 
-- **Charge-to-launch loop** with Ready/Set/Go countdown animations and sound cues.
-- **Fuel (power) meter HUD** that reacts as you mash the ignition buttons.
-- **Dynamic exhaust particles** and screen-scrolling clouds to amp up motion.
+- **Charge-to-launch loop** with Ready/Set/Go countdown animations and synthesized countdown voice cues.
+- **Fuel (power) meter HUD** and **combo meter** that reward fast alternating taps.
+- **Dynamic exhaust particles** and launch **screen shake** to amp up motion.
 - **Auto-playing background music** plus launch / countdown / power-down SFX.
-- **High score tracking** in-session so every run chases a new record.
+- **Persistent high score saving** so your best launch survives restarts.
+- **Flight results overlay** with altitude, peak speed, tap rate, and combo stats.
 
 ## ⌨️ Controls
 
@@ -45,9 +46,7 @@ Race through a frantic pre-launch countdown, mash the ignition buttons to feed y
 
 ### Run Locally
 
-```
+```cmd
+cd path\to\go-rocket-go
 go run .
 ```
-
-
-"# GoRocket" 
